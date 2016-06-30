@@ -1,0 +1,212 @@
+﻿生成启动时间为 6/29/2016 4:19:00 PM。
+     1>项目“D:\我的文档\Visual Studio 2013\Projects\UAVtracker1.0\UAVTrackerdll\UAVTrackerdll.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D UAVTRACKERDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FerNNClassifier.cpp KalmanPredict.cpp PatchGenerator.cpp UAVTracker.cpp utils.cpp
+         utils.cpp
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\utils.cpp(32): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         UAVTracker.cpp
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(56): warning C4251: “TLD::generator”: class“PatchGenerator”需要有 dll 接口由 class“TLD”的客户端使用
+                 d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\patchgenerator.h(5) : 参见“PatchGenerator”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(57): warning C4251: “TLD::classifier”: class“FerNNClassifier”需要有 dll 接口由 class“TLD”的客户端使用
+                 d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.h(10) : 参见“FerNNClassifier”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(90): warning C4251: “TLD::iisum”: class“cv::Mat”需要有 dll 接口由 class“TLD”的客户端使用
+                 e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(741) : 参见“cv::Mat”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(91): warning C4251: “TLD::iisqsum”: class“cv::Mat”需要有 dll 接口由 class“TLD”的客户端使用
+                 e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(741) : 参见“cv::Mat”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(92): warning C4251: “TLD::currentframe”: class“cv::Mat”需要有 dll 接口由 class“TLD”的客户端使用
+                 e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(741) : 参见“cv::Mat”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(99): warning C4251: “TLD::pX”: class“std::vector<std::pair<std::vector<int,std::allocator<_Ty>>,int>,std::allocator<std::pair<std::vector<_Ty,std::allocator<_Ty>>,int>>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(100): warning C4251: “TLD::nX”: class“std::vector<std::pair<std::vector<int,std::allocator<_Ty>>,int>,std::allocator<std::pair<std::vector<_Ty,std::allocator<_Ty>>,int>>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(101): warning C4251: “TLD::pEx”: class“cv::Mat”需要有 dll 接口由 class“TLD”的客户端使用
+                 e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(741) : 参见“cv::Mat”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(102): warning C4251: “TLD::nEx”: class“std::vector<cv::Mat,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=cv::Mat
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(105): warning C4251: “TLD::nXT”: class“std::vector<std::pair<std::vector<int,std::allocator<_Ty>>,int>,std::allocator<std::pair<std::vector<_Ty,std::allocator<_Ty>>,int>>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(106): warning C4251: “TLD::nExT”: class“std::vector<cv::Mat,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=cv::Mat
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(109): warning C4251: “TLD::lastbox”: struct“BoundingBox”需要有 dll 接口由 class“TLD”的客户端使用
+                 d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(15) : 参见“BoundingBox”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(116): warning C4251: “TLD::tbb”: struct“BoundingBox”需要有 dll 接口由 class“TLD”的客户端使用
+                 d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(15) : 参见“BoundingBox”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(117): warning C4251: “TLD::kcfbox”: class“cv::Rect_<double>”需要有 dll 接口由 class“TLD”的客户端使用
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(120): warning C4251: “TLD::kcf”: struct“cv::Ptr<cv::Tracker>”需要有 dll 接口由 class“TLD”的客户端使用
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(124): warning C4251: “TLD::dbb”: class“std::vector<BoundingBox,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=BoundingBox
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(125): warning C4251: “TLD::dvalid”: class“std::vector<bool,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=bool
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(126): warning C4251: “TLD::dconf”: class“std::vector<float,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=float
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(130): warning C4251: “TLD::grid”: class“std::vector<BoundingBox,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=BoundingBox
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(131): warning C4251: “TLD::gridoftracker”: class“std::vector<BoundingBox,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=BoundingBox
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(135): warning C4251: “TLD::gridscalnum”: class“std::vector<int,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(136): warning C4251: “TLD::scales”: class“std::vector<cv::Size,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=cv::Size
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(137): warning C4251: “TLD::good_boxes”: class“std::vector<int,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(138): warning C4251: “TLD::bad_boxes”: class“std::vector<int,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(139): warning C4251: “TLD::bbhull”: struct“BoundingBox”需要有 dll 接口由 class“TLD”的客户端使用
+                 d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(15) : 参见“BoundingBox”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(140): warning C4251: “TLD::best_box”: struct“BoundingBox”需要有 dll 接口由 class“TLD”的客户端使用
+                 d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(15) : 参见“BoundingBox”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(142): warning C4251: “TLD::Kalman”: class“kalman”需要有 dll 接口由 class“TLD”的客户端使用
+                 d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\kalmanpredict.h(8) : 参见“kalman”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.h(144): warning C4251: “TLD::kalman_boxes”: class“std::vector<int,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(18): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(50): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(168): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(180): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(187): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(196): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(200): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(210): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(286): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(356): warning C4244: “参数”: 从“float”转换到“unsigned int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(401): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(402): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(403): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(404): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(484): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(530): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(641): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(642): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(646): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(674): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(682): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(683): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(687): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(688): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(689): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(690): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(698): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(738): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(739): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(740): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(741): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(743): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(858): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(909): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(936): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(949): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(972): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(990): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(991): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(1017): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(1018): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(1048): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(1049): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(1052): warning C4244: “初始化”: 从“const int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(1053): warning C4244: “初始化”: 从“const int”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(1061): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(1077): warning C4018: “>”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(1100): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(1121): warning C4018: “>”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(1144): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\uavtracker.cpp(1274): warning C4018: “<”: 有符号/无符号不匹配
+         PatchGenerator.cpp
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         KalmanPredict.cpp
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FerNNClassifier.cpp
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(44): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(45): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(46): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(47): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(55): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(68): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(69): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(70): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(135): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(166): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(237): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(238): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(239): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(246): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(249): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(272): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(275): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(303): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(305): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(367): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(376): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtrackerdll\fernnclassifier.cpp(391): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\我的文档\Visual Studio 2013\Projects\UAVtracker1.0\Debug\UAVTrackerd.dll" /INCREMENTAL /NOLOGO opencv_aruco310d.lib opencv_bgsegm310d.lib opencv_bioinspired310d.lib opencv_calib3d310d.lib opencv_ccalib310d.lib opencv_core310d.lib opencv_datasets310d.lib opencv_dnn310d.lib opencv_dpm310d.lib opencv_face310d.lib opencv_features2d310d.lib opencv_flann310d.lib opencv_fuzzy310d.lib opencv_highgui310d.lib opencv_imgcodecs310d.lib opencv_imgproc310d.lib opencv_line_descriptor310d.lib opencv_ml310d.lib opencv_objdetect310d.lib opencv_optflow310d.lib opencv_photo310d.lib opencv_plot310d.lib opencv_reg310d.lib opencv_rgbd310d.lib opencv_saliency310d.lib opencv_shape310d.lib opencv_stereo310d.lib opencv_stitching310d.lib opencv_structured_light310d.lib opencv_superres310d.lib opencv_surface_matching310d.lib opencv_text310d.lib opencv_tracking310d.lib opencv_ts310d.lib opencv_video310d.lib opencv_videoio310d.lib opencv_videostab310d.lib opencv_xfeatures2d310d.lib opencv_ximgproc310d.lib opencv_xobjdetect310d.lib opencv_xphoto310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\我的文档\Visual Studio 2013\Projects\UAVtracker1.0\Debug\UAVTrackerd.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\我的文档\Visual Studio 2013\Projects\UAVtracker1.0\Debug\UAVTrackerd.lib" /MACHINE:X86 /DLL Debug\FerNNClassifier.obj
+         Debug\KalmanPredict.obj
+         Debug\PatchGenerator.obj
+         Debug\UAVTracker.obj
+         Debug\utils.obj
+            正在创建库 D:\我的文档\Visual Studio 2013\Projects\UAVtracker1.0\Debug\UAVTrackerd.lib 和对象 D:\我的文档\Visual Studio 2013\Projects\UAVtracker1.0\Debug\UAVTrackerd.exp
+         UAVTrackerdll.vcxproj -> D:\我的文档\Visual Studio 2013\Projects\UAVtracker1.0\Debug\UAVTrackerd.dll
+     1>已完成生成项目“D:\我的文档\Visual Studio 2013\Projects\UAVtracker1.0\UAVTrackerdll\UAVTrackerdll.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.79

@@ -1,0 +1,180 @@
+﻿生成启动时间为 6/26/2016 9:33:08 AM。
+     1>项目“D:\我的文档\Visual Studio 2013\Projects\UAVtracker1.0\UAVtracker1.0test\UAVtracker1.0test.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt run_tld.cpp
+         run_tld.cpp
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\opencv310_comp\build_x86\install\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\lktracker.h(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\lktracker.h(12): warning C4251: “LKTracker::pointsFB”: class“std::vector<cv::Point2f,std::allocator<_Ty>>”需要有 dll 接口由 class“LKTracker”的客户端使用
+                 with
+                 [
+                     _Ty=cv::Point2f
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\lktracker.h(13): warning C4251: “LKTracker::window_size”: class“cv::Size_<int>”需要有 dll 接口由 class“LKTracker”的客户端使用
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\lktracker.h(15): warning C4251: “LKTracker::status”: class“std::vector<uchar,std::allocator<_Ty>>”需要有 dll 接口由 class“LKTracker”的客户端使用
+                 with
+                 [
+                     _Ty=uchar
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\lktracker.h(16): warning C4251: “LKTracker::FB_status”: class“std::vector<uchar,std::allocator<_Ty>>”需要有 dll 接口由 class“LKTracker”的客户端使用
+                 with
+                 [
+                     _Ty=uchar
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\lktracker.h(17): warning C4251: “LKTracker::similarity”: class“std::vector<float,std::allocator<_Ty>>”需要有 dll 接口由 class“LKTracker”的客户端使用
+                 with
+                 [
+                     _Ty=float
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\lktracker.h(18): warning C4251: “LKTracker::FB_error”: class“std::vector<float,std::allocator<_Ty>>”需要有 dll 接口由 class“LKTracker”的客户端使用
+                 with
+                 [
+                     _Ty=float
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\lktracker.h(25): warning C4251: “LKTracker::term_criteria”: class“cv::TermCriteria”需要有 dll 接口由 class“LKTracker”的客户端使用
+                 e:\opencv310_comp\build_x86\install\include\opencv2\core\types.hpp(772) : 参见“cv::TermCriteria”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\fernnclassifier.h(26): warning C4251: “FerNNClassifier::pmodel”: class“cv::Mat”需要有 dll 接口由 class“FerNNClassifier”的客户端使用
+                 e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(741) : 参见“cv::Mat”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\fernnclassifier.h(57): warning C4251: “FerNNClassifier::features”: class“std::vector<std::vector<FerNNClassifier::Feature,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”需要有 dll 接口由 class“FerNNClassifier”的客户端使用
+                 with
+                 [
+                     _Ty=FerNNClassifier::Feature
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\fernnclassifier.h(58): warning C4251: “FerNNClassifier::nCounter”: class“std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”需要有 dll 接口由 class“FerNNClassifier”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\fernnclassifier.h(59): warning C4251: “FerNNClassifier::pCounter”: class“std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”需要有 dll 接口由 class“FerNNClassifier”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\fernnclassifier.h(60): warning C4251: “FerNNClassifier::posteriors”: class“std::vector<std::vector<float,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”需要有 dll 接口由 class“FerNNClassifier”的客户端使用
+                 with
+                 [
+                     _Ty=float
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\fernnclassifier.h(64): warning C4251: “FerNNClassifier::pEx”: class“std::vector<cv::Mat,std::allocator<_Ty>>”需要有 dll 接口由 class“FerNNClassifier”的客户端使用
+                 with
+                 [
+                     _Ty=cv::Mat
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\fernnclassifier.h(65): warning C4251: “FerNNClassifier::nEx”: class“std::vector<cv::Mat,std::allocator<_Ty>>”需要有 dll 接口由 class“FerNNClassifier”的客户端使用
+                 with
+                 [
+                     _Ty=cv::Mat
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\kalman.h(13): warning C4251: “kalman::KF”: class“cv::KalmanFilter”需要有 dll 接口由 class“kalman”的客户端使用
+                 e:\opencv310_comp\build_x86\install\include\opencv2\video\tracking.hpp(328) : 参见“cv::KalmanFilter”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\kalman.h(14): warning C4251: “kalman::measurement”: class“cv::Mat”需要有 dll 接口由 class“kalman”的客户端使用
+                 e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(741) : 参见“cv::Mat”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\kalman.h(16): warning C4251: “kalman::centerpt”: class“cv::Point_<float>”需要有 dll 接口由 class“kalman”的客户端使用
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\mp.h(12): warning C4251: “Mp::stateMp”: class“cv::Mat”需要有 dll 接口由 class“Mp”的客户端使用
+                 e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(741) : 参见“cv::Mat”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\mp.h(13): warning C4251: “Mp::transitionmatrix”: class“cv::Mat”需要有 dll 接口由 class“Mp”的客户端使用
+                 e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(741) : 参见“cv::Mat”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\mp.h(18): warning C4251: “Mp::lastpt”: class“cv::Point_<float>”需要有 dll 接口由 class“Mp”的客户端使用
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(93): warning C4251: “TLD::iisum”: class“cv::Mat”需要有 dll 接口由 class“TLD”的客户端使用
+                 e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(741) : 参见“cv::Mat”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(94): warning C4251: “TLD::iisqsum”: class“cv::Mat”需要有 dll 接口由 class“TLD”的客户端使用
+                 e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(741) : 参见“cv::Mat”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(95): warning C4251: “TLD::currentframe”: class“cv::Mat”需要有 dll 接口由 class“TLD”的客户端使用
+                 e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(741) : 参见“cv::Mat”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(102): warning C4251: “TLD::pX”: class“std::vector<std::pair<std::vector<int,std::allocator<_Ty>>,int>,std::allocator<std::pair<std::vector<_Ty,std::allocator<_Ty>>,int>>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(103): warning C4251: “TLD::nX”: class“std::vector<std::pair<std::vector<int,std::allocator<_Ty>>,int>,std::allocator<std::pair<std::vector<_Ty,std::allocator<_Ty>>,int>>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(104): warning C4251: “TLD::pEx”: class“cv::Mat”需要有 dll 接口由 class“TLD”的客户端使用
+                 e:\opencv310_comp\build_x86\install\include\opencv2\core\mat.hpp(741) : 参见“cv::Mat”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(105): warning C4251: “TLD::nEx”: class“std::vector<cv::Mat,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=cv::Mat
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(108): warning C4251: “TLD::nXT”: class“std::vector<std::pair<std::vector<int,std::allocator<_Ty>>,int>,std::allocator<std::pair<std::vector<_Ty,std::allocator<_Ty>>,int>>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(109): warning C4251: “TLD::nExT”: class“std::vector<cv::Mat,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=cv::Mat
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(112): warning C4251: “TLD::lastbox”: struct“BoundingBox”需要有 dll 接口由 class“TLD”的客户端使用
+                 d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(18) : 参见“BoundingBox”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(119): warning C4251: “TLD::tbb”: struct“BoundingBox”需要有 dll 接口由 class“TLD”的客户端使用
+                 d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(18) : 参见“BoundingBox”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(120): warning C4251: “TLD::kcfbox”: class“cv::Rect_<double>”需要有 dll 接口由 class“TLD”的客户端使用
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(123): warning C4251: “TLD::kcf”: struct“cv::Ptr<cv::Tracker>”需要有 dll 接口由 class“TLD”的客户端使用
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(127): warning C4251: “TLD::dbb”: class“std::vector<BoundingBox,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=BoundingBox
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(128): warning C4251: “TLD::dvalid”: class“std::vector<bool,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=bool
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(129): warning C4251: “TLD::dconf”: class“std::vector<float,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=float
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(133): warning C4251: “TLD::grid”: class“std::vector<BoundingBox,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=BoundingBox
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(134): warning C4251: “TLD::gridoftracker”: class“std::vector<BoundingBox,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=BoundingBox
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(138): warning C4251: “TLD::gridscalnum”: class“std::vector<int,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(139): warning C4251: “TLD::scales”: class“std::vector<cv::Size,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=cv::Size
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(140): warning C4251: “TLD::good_boxes”: class“std::vector<int,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(141): warning C4251: “TLD::bad_boxes”: class“std::vector<int,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(142): warning C4251: “TLD::bbhull”: struct“BoundingBox”需要有 dll 接口由 class“TLD”的客户端使用
+                 d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(18) : 参见“BoundingBox”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(143): warning C4251: “TLD::best_box”: struct“BoundingBox”需要有 dll 接口由 class“TLD”的客户端使用
+                 d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(18) : 参见“BoundingBox”的声明
+     1>d:\我的文档\visual studio 2013\projects\uavtracker1.0\uavtracker1.0test\tld.h(149): warning C4251: “TLD::kalman_boxes”: class“std::vector<int,std::allocator<_Ty>>”需要有 dll 接口由 class“TLD”的客户端使用
+                 with
+                 [
+                     _Ty=int
+                 ]
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\我的文档\Visual Studio 2013\Projects\UAVtracker1.0\Debug\UAVtracker1.0test.exe" /INCREMENTAL /NOLOGO opencv_aruco310d.lib opencv_bgsegm310d.lib opencv_bioinspired310d.lib opencv_calib3d310d.lib opencv_ccalib310d.lib opencv_core310d.lib opencv_datasets310d.lib opencv_dnn310d.lib opencv_dpm310d.lib opencv_face310d.lib opencv_features2d310d.lib opencv_flann310d.lib opencv_fuzzy310d.lib opencv_highgui310d.lib opencv_imgcodecs310d.lib opencv_imgproc310d.lib opencv_line_descriptor310d.lib opencv_ml310d.lib opencv_objdetect310d.lib opencv_optflow310d.lib opencv_photo310d.lib opencv_plot310d.lib opencv_reg310d.lib opencv_rgbd310d.lib opencv_saliency310d.lib opencv_shape310d.lib opencv_stereo310d.lib opencv_stitching310d.lib opencv_structured_light310d.lib opencv_superres310d.lib opencv_surface_matching310d.lib opencv_text310d.lib opencv_tracking310d.lib opencv_ts310d.lib opencv_video310d.lib opencv_videoio310d.lib opencv_videostab310d.lib opencv_xfeatures2d310d.lib opencv_ximgproc310d.lib opencv_xobjdetect310d.lib opencv_xphoto310d.lib TLD.lib tld_utils.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\我的文档\Visual Studio 2013\Projects\UAVtracker1.0\Debug\UAVtracker1.0test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\我的文档\Visual Studio 2013\Projects\UAVtracker1.0\Debug\UAVtracker1.0test.lib" /MACHINE:X86 Debug\run_tld.obj
+         UAVtracker1.0test.vcxproj -> D:\我的文档\Visual Studio 2013\Projects\UAVtracker1.0\Debug\UAVtracker1.0test.exe
+     1>已完成生成项目“D:\我的文档\Visual Studio 2013\Projects\UAVtracker1.0\UAVtracker1.0test\UAVtracker1.0test.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.26
